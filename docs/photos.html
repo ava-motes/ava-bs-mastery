@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+  <title>Pirate Cove</title>
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Pirate Cove</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="article.html">Article</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="photos.html">Photos</a>
+          </li>
+      </div>
+    </div>
+  </nav>
+  <div class="jumbotron pb-5">
+    <div class="container" style="height:100px"></div>
+    <h1 class="header">Ship's Log</h1>
+    <p class="subhead">A diary by Capt. Crit 'Red Beard' McGilliculty</p>
+  </div>
+  <div class="container mt-4 mb-4">
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/kraken01.jpg" class="d-block w-100" alt="Hungry Kraken">
+              <div class="carousel-caption d-none d-md-block"> <!-- Nothing I tried worked to change the position of the caption... -->
+                <p>Hungry Kraken attacking ship placeholder caption.</p> 
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/kraken02.jpg" class="d-block w-100" alt="Ice Kraken">
+              <div class="carousel-caption d-none d-md-block">
+                <p>Ice Kraken also attacking ship placeholder caption.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/kraken03.jpg" class="d-block w-100" alt="Idiot Kraken">
+              <div class="carousel-caption d-none d-md-block">
+                <p>Idiot Kraken also attacking ship placeholer caption.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <p>Site by Kraken Industries</p> 
+  </footer>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
